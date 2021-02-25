@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EPPlus</id>
+    <version>4.1.1</version>
+    <authors>Jan Källman</authors>
+    <owners>Jan Källman</owners>
+    <licenseUrl>https://opensource.org/licenses/LGPL-3.0</licenseUrl>
+    <projectUrl>https://github.com/JanKallman/EPPlus</projectUrl>
+    <iconUrl>http://github.com/contoso/UsefulStuff/nuget_icon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A library to manage Excel spreadsheets, using OOXML.</description>
+    <releaseNotes>Hotfix for VBA in latest Excel version, see this issue: https://github.com/JanKallman/EPPlus/issues/5</releaseNotes>
+    <copyright>Copyright ©2016 Jan Källman</copyright>
+    <tags>Excel ooxml</tags>
+  </metadata>
+</package>

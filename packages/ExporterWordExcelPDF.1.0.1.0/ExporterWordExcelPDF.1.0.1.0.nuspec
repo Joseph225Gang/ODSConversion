@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ExporterWordExcelPDF</id>
+    <version>1.0.1.0</version>
+    <title>Exporter Word Excel PDF</title>
+    <authors>Andrei Ignat</authors>
+    <owners>Andrei Ignat</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Export to Excel,Word , Pdf, Html,CSV
+		  The data could be a C# class or a JSON/CSV string
+		  Examples:
+
+		  export=new ExportExcel2007&lt;Person&gt;
+			  ();
+			  data = export.ExportResult(new List&lt;Person&gt;() { p });
+            File.WriteAllBytes("a.xlsx", data);
+            Process.Start("a.xlsx");
+
+
+			data= ExportFactory.ExportDataJson(dataJson, ExportToFormat.Excel2007);
+            File.WriteAllBytes("bJson.xlsx", data);
+            Process.Start("bJson.xlsx");
+
+		  More details/code at http://ignatandrei.github.io/Exporter/</description>
+    <summary />
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="8.0.1" />
+      <dependency id="RazorEngine" version="3.7.6" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
